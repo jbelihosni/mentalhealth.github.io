@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+}
+section{
+    display: flex;
+}
+.event-card {
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+	padding: 20px;
+	margin: 20px;
+	max-width: 500px;
+    margin-bottom: auto;
+    width: 500px;
+    height: 300px;
+    
+}
+
+.event-card img {
+	width: 100%;
+	margin-bottom: 10px;
+   
+}
+
+.event-card h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.event-card p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6385DC;
+    padding: 20px;
+    padding-left: 30px;
+  }
+  
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poltawski Nowy', serif;
+  }
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .menu li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .menu li a:hover {
+    background-color: #EE873A;
+    border-radius: 4px;
+  }
+  #event-card{
+    background-color: #f2f2f2;
+	border-radius: 5px;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+	padding: 20px;
+	margin: 20px;
+	max-width: 500px;
+    margin-bottom: auto;
+    width: 134px;
+    height: 340px;
+  }
+  footer {
+    background-color: #6385DC;
+margin-top: 20px;
+    padding-top: 10px;
+  }
+  
+  footer h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  footer p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  footer p.text-center {
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  footer hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #8aff05;
+  }
